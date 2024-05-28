@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="com.selgrid.GoogleHomePageTest">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.selgrid.GoogleHomePageTest -->
+      <class name="com.selgrid.GoogleHomePageTest_FF">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.selgrid.GoogleHomePageTest_FF -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
